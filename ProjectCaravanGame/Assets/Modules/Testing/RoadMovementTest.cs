@@ -18,7 +18,7 @@ class RoadMovementTest : MonoBehaviour
     private void Start()
     {
         InitializeTest();
-        merchant.EnqueueOrder(new RoadMovementOrder(merchant, city2, road, 0.5f));
+        merchant.EnqueueOrder(new RoadMovementOrder(merchant, city2, road, 0.5f));  
         merchant.EnqueueOrder(new RoadMovementOrder(merchant, city3, road2, 0.5f));
     }
 
