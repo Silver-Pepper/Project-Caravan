@@ -3,7 +3,7 @@ using System.Text;
 
 namespace ProjectGeorge
 {
-    class Buildings 
+    public class Buildings 
     {
         private static string PROMPT_NAME = "The name of this building is: ";
         private static string PROMPT_DES = "\n ";

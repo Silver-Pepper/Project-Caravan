@@ -1,10 +1,12 @@
+using ProjectGeorge.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using UnityEngine;
 
 namespace ProjectGeorge
 {
-    class City
+    public class City : MonoBehaviour
     {
         public bool isVisited
         {
@@ -18,7 +20,7 @@ namespace ProjectGeorge
             set;
         }
 
-        public string name
+        public string city_name
         {
             get;
             private set;
@@ -42,6 +44,14 @@ namespace ProjectGeorge
             private set;
         }
 
+        public CityData Data
+        {
+            get;
+            private set;
+        }
+
+        [SerializeField]
+        public Sprite cityPic;
 
         public City(string name, string descriptions, List<Buildings> buildings) 
         {
