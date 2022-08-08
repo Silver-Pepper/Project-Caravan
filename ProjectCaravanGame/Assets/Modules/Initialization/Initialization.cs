@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using ProjectGeorge.Entities;
 using ProjectGeorge.Controllers;
+using ProjectGeorge;
 
 /// <summary>
 /// Initialize the data models accoding to external data input

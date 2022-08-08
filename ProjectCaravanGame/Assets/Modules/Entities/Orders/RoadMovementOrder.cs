@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using City = ProjectGeorge.City;
 using ProjectGeorge.Controllers;
 using ProjectGeorge.Entities;
 using UnityEngine;
